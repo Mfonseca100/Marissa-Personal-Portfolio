@@ -14,7 +14,9 @@ main{
     z-index: 2;
 }
 body {
-    background-image: url('./images/purple-macbook-pro-stock-5k-4480x2520-4026.jpg');
+    background-image: url('https://4kwallpapers.com/images/walls/thumbs_3t/4026.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #ec27d5;
     margin: 0;
     padding: 0;
@@ -26,13 +28,13 @@ body {
 header {
     display: flex;
     justify-content: flex-start;
-    height: 10vh;
+    height: 15vh;
     min-width: 200vh;
-    background-image: url('./images/1000_F_123498067_ufF773Ksk07VpA4s8bovUvH0TAtDSnND.jpg');
+    background-image: url('https://as1.ftcdn.net/v2/jpg/01/23/49/80/1000_F_123498067_ufF773Ksk07VpA4s8bovUvH0TAtDSnND.jpg');
     opacity: 0.75;
 }
 .container{
-    padding: 10px 10%;
+    padding: 80px 10%;
     position: relative;
 }
 /*border displayed behind name and titles*/
