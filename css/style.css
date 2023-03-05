@@ -1,8 +1,8 @@
 * {
- margin: 0;
- padding: 0;
- font-family: 'Poppins', sans-serif;
- box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 
 }
 
@@ -24,94 +24,117 @@ header {
     opacity: 0.65;
 
 }
-.container{
+
+.container {
     position: relative;
 }
-.header-image{
-    background-size:cover;
+
+.header-image {
+    background-size: cover;
     margin-top: 9.8%;
     opacity: 0.25;
     max-width: 900px;
 }
+
 /*About Me, Work, Get in Touch tabs*/
-nav{
+nav {
     margin-top: -5vh;
+    max-width: 100%;
 }
+
 nav ul {
-    list-style:square;
+    list-style: none;
     margin: 0;
     padding: 0;
-    display:flex;
-    justify-content: center;
-}
-nav ul li {
-    margin: 0 20px;
-    padding: 0;
-    display:flex;
-    align-items: center;
-    
-}
-nav ul li a{
-    color: rgb(255, 255, 255); 
-    text-decoration: none;
-    font-size: 40px;
-}
-/*Marissa Edith*/
-#nav-logo{
     display: flex;
-    align-items: left;
+    justify-content: center;
+    ;
+}
+
+nav ul li {
+    margin: 0 9px;
+    padding: 80px 1px;
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li a {
+    color: rgb(255, 0, 217);
+    text-decoration: none;
+    font-size: 30px;
+    text-shadow: 2px 8px 4px rgba(0, 0, 0, 0.5);
+}
+
+/*Marissa Edith*/
+#nav-logo {
+    display: flex;
+    margin-left: 20vh;
     color: white;
     font-size: 50px;
     font-weight: bold;
-    margin-top: 10vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-shadow: 10px 10px 10px rgb(0, 0, 0);
+    max-width: 900px;
 }
+
 /*underlining titles defaults*/
-a:hover{
+a {
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+a:hover {
     text-decoration: 2px underline rgb(243, 0, 198);
-    background: rgb(248, 135, 239);
+    background: rgb(244, 160, 237);
+    border-radius: 15px;
     transition: 0.5s ease;
 }
+
 /*Allow me to introduce myself*/
-.header-text{
+.header-text {
     font-weight: bold;
     color: rgb(255, 255, 255);
     text-shadow: 4px 4px 4px rgba(8, 4, 4, 0.5);
- }
- main{
+}
+
+main {
     max-width: 900px;
     margin: auto;
-}   
+}
+
 /*About Me and allow me to introduce myself spacing*/
-h1, h2 {
-    font-weight: 400;
+h1,
+h2 {
     font-size: 1.5rem;
     text-decoration: underline;
     font-family: 'Press Start 2P', cursive;
     margin-top: 10vh;
     margin-bottom: 1rem;
     text-align: center;
-    background: rgba(132, 0, 233, 0.506);
 }
+
 /*text style for paragraphs*/
 p {
-    font-size:large;
+    font-size: large;
     text-shadow: 2px 2px 4px rgb(226, 10, 255);
     color: #000000;
-    font-weight:400;
-    background:rgba(255, 1, 187, 0.256);
+    font-weight: 900;
+    background: rgba(255, 1, 187, 0.256);
     text-align: center;
     padding: 1.5rem;
+    max-width: 900px;
 }
+
 /*links*/
 a {
-    color: rgba(5, 48, 238, 0.817);
-    font-style: bold; 
-    font-size: x-large;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    background: rgba(255, 255, 255, 0.504);
-} 
+    color: rgba(255, 0, 225, 0.817);
+    font-family: 'Press Start 2P';
+    font-size: large;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.325);
+    background: rgb(255, 255, 255);
+}
 
 /*Work section*/
 img {
@@ -120,27 +143,55 @@ img {
     width: 300px;
     margin: 0 auto;
     border-radius: 10px;
-    border-style:double;
+    border-style: double;
     border-color: rgb(255, 255, 255);
     border-width: 10px;
 }
+
 /*Get in touch section*/
-.project-description{
+.project-description {
     padding: 0.8rem;
     text-align: center;
 }
+
 footer {
     text-align: center;
     padding: 2rem 1rem;
     margin: auto;
 }
+
 footer h3 {
     font-size: 1.3rem;
     font-family: 'Press Start 2P';
     margin-bottom: 0vh;
     text-shadow: 2px 2px 4px rgb(226, 10, 255);
     color: #000000;
-    font-weight:400;
+    font-weight: 400;
 }
 
+@media only screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+    }
 
+    nav ul li {
+        margin: 0px 0;
+        padding: 1px 0;
+        text-align: center;
+    }
+
+    #nav-logo {
+        margin: 0;
+        text-align: center;
+    }
+
+    a {
+        display: block;
+        margin-top: 20px;
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
