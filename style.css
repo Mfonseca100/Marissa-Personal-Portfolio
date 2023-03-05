@@ -31,6 +31,7 @@ header {
     height: 15vh;
     min-width: 200vh;
     background-image: url('https://as1.ftcdn.net/v2/jpg/01/23/49/80/1000_F_123498067_ufF773Ksk07VpA4s8bovUvH0TAtDSnND.jpg');
+    background-repeat: no-repeat;
     opacity: 0.75;
 }
 .container{
@@ -157,4 +158,5 @@ img {
 }
 footer {
     text-align: center;
+    text-decoration: underline;
 }
