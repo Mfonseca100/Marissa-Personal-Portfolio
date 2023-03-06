@@ -150,6 +150,7 @@ img {
     align-items: center;
     justify-content: center;
 }
+/*prework project img has to be bigger than the second project*/
 .first-image{
     width: 450px;
     margin-right: 20px;
@@ -187,7 +188,7 @@ footer h3 {
     color: #000000;
     font-weight: 400;
 }
-
+/*screen display with max width*/
 @media only screen and (max-width: 600px) {
     nav ul {
         flex-direction: column;
