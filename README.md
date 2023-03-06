@@ -38,7 +38,8 @@ You are required to submit BOTH of the following for review:
 
 * The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 ```
+## My Personal Portfolio 
+[Link to Deployed Application](https://mfonseca100.github.io/Marissa-Personal-Portfolio/)
 
 ## Image of Portfolio
-```deplyed link to deployed application : ```
 ![Portfolio Screenshot](./assets/images/Profolio%20Prototype.png)
