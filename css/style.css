@@ -90,6 +90,7 @@ a:hover {
     background: rgb(244, 160, 237);
     border-radius: 15px;
     transition: 0.5s ease;
+    cursor: pointer;
 }
 
 /*Allow me to introduce myself*/
@@ -139,13 +140,31 @@ a {
 /*Work section*/
 img {
     max-width: 100%;
-    display: block;
-    width: 300px;
+    width: 310px;
     margin: 0 auto;
     border-radius: 10px;
     border-style: double;
     border-color: rgb(255, 255, 255);
     border-width: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first-image{
+    width: 450px;
+    margin-right: 20px;
+} 
+.first-image:hover {
+    width: 460px;
+    transition: width 0.2s ease-in-out;
+}
+
+#work img {
+    display: inline-block;
+    margin: 0 10px;
+    max-width: 100%;
+    text-align: center;
+    
 }
 
 /*Get in touch section*/
@@ -192,6 +211,7 @@ footer h3 {
         margin-top: 20px;
     }
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
