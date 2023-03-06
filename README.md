@@ -1,7 +1,7 @@
 # Personal-Portfolio
->Module Two Challenge
+## Module Two Challenge
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. 
+>A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. 
 
 ## User Story
 
@@ -30,9 +30,14 @@ THEN I am presented with a responsive layout that adapts to my viewport -
 ```
 
 ## Review 
+
+```
 You are required to submit BOTH of the following for review:
 
 * The URL of the deployed application.
 
 * The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+```
 
+## Image of Portfolio
+![Portfolio Screenshot](images/Profolio%20Prototype.png)
