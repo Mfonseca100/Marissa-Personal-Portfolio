@@ -40,4 +40,5 @@ You are required to submit BOTH of the following for review:
 ```
 
 ## Image of Portfolio
-![Portfolio Screenshot](images/Profolio%20Prototype.png)
+```deplyed link to deployed application : 
+![Portfolio Screenshot](./assets/images/Profolio%20Prototype.png)
