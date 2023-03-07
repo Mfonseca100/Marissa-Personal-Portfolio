@@ -42,4 +42,4 @@ You are required to submit BOTH of the following for review:
 [Link to Deployed Application](https://mfonseca100.github.io/Marissa-Personal-Portfolio/)
 
 ## Image of Portfolio
-![Portfolio Screenshot](./assets/images/Profolio%20Prototype.png)
+![Portfolio Screenshot](./assets/images/mfonseca100.github.io_Marissa-Personal-Portfolio_.png)
